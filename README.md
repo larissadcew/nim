@@ -1,40 +1,37 @@
-# 🎮 Projeto Nim
+# Nim Game 🎮
 
-O projeto **Nim** é uma implementação do clássico jogo de estratégia **Nim**, onde dois jogadores alternam turnos para retirar objetos de pilhas. O objetivo do jogo é evitar ser o jogador que tirar o último objeto. A estratégia do jogo envolve uma análise cuidadosa das pilhas, já que a vitória pode ser garantida com a aplicação de um cálculo matemático simples, conhecido como *Nim-Sum*.
+Welcome to the **Nim Game** repository! This project is a Python-based implementation of the classic Nim game, designed to enhance strategic thinking while providing a fun experience.
 
-## 🔧 Funcionalidades
+---
 
-- **Jogabilidade**: Dois jogadores podem se alternar, retirando objetos das pilhas até que um vença o jogo.
-- **Estratégia de Vitória**: O jogo é baseado na análise de *Nim-Sum*, uma técnica matemática para garantir a vitória.
-- **Modo para Dois Jogadores**: Jogadores humanos jogam alternadamente no mesmo dispositivo.
-- **Interface Simples**: O jogo possui uma interface simples e intuitiva para facilitar a experiência.
+## 🧩 About the Game
+Nim is a two-player mathematical strategy game where participants take turns removing objects from distinct piles. The goal is to avoid being the player who takes the last object.
 
-## 🖥️ Tecnologias Utilizadas
+### Key Features
+- **Two-Player Mode**: Engage in strategic gameplay on the same device.
+- **Mathematical Logic**: Leverages the **Nim-Sum** XOR strategy to determine optimal moves.
+- **Interactive Gameplay**: Simple text-based interface for an intuitive experience.
 
-- **Python**: A implementação do jogo é feita em Python, utilizando conceitos de estrutura de dados como pilhas.
-- **Terminal/Console**: O jogo é executado no terminal/console, com interação através de texto.
+---
 
-## 🎯 Objetivo do Jogo
+## 🎯 Game Rules
+1. The game starts with several piles of objects.
+2. Players take turns removing any number of objects from a single pile.
+3. The player forced to take the last object loses the game.
 
-O jogo envolve um número de pilhas de objetos, e a cada turno, um jogador deve retirar qualquer número de objetos de uma única pilha. O objetivo é evitar ser o jogador que retira o último objeto de todas as pilhas.
+---
 
-### Regras:
+## ⚙️ Technologies Used
+- **Python**: Core logic and implementation.
+- **Terminal Interface**: Intuitive text-based gameplay.
 
-1. O jogo começa com algumas pilhas de objetos.
-2. Em cada turno, o jogador deve escolher uma pilha e retirar um número qualquer de objetos dessa pilha.
-3. O jogo continua até que todos os objetos sejam retirados.
-4. O jogador que retirar o último objeto perde o jogo.
+---
 
-## ⚙️ Como Jogar
-
-1. **Inicie o Jogo**: Execute o arquivo `nim.py` para começar o jogo.
-2. **Escolha uma Pilha**: Cada jogador pode escolher uma pilha e decidir quantos objetos retirar dessa pilha.
-3. **Estratégia**: Aplique a estratégia de *Nim-Sum* para aumentar suas chances de ganhar. O *Nim-Sum* é calculado fazendo uma operação XOR (exclusive OR) de todos os números de objetos em cada pilha.
-
-## 📌 Como Rodar o Projeto
-
-Para jogar, siga os passos abaixo:
-
-1. Clone o repositório:
+## 🚀 How to Run the Project
+1. Clone the repository:
    ```bash
    git clone https://github.com/larissadcew/nim.git
+   cd nim
+   python nim.py
+
+   
